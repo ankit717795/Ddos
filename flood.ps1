@@ -26,7 +26,7 @@ write-host '
 
 $web = New-Object System.Net.WebClient
 $web.proxy = new-object system.net.webproxy
-$web.proxy.address = "Localhost:8118"
+$web.proxy.address = "https://bbpsgr.balbharati.org"
 #"please setup ur proxy cred"
 #$web.proxy.credentials = get-credential
 <#
